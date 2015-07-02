@@ -6,6 +6,10 @@ Based on the script by Mike Byrne:
 
 http://opticalcortex.com/animating-css-gradients/
 
+## Demo
+
+https://codefog.github.io/jquery-gradientify/
+
 ## Usage
 
 Here is an example of quick usage:
