@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>jQuery Gradientify plugin - demo</title>
+        <meta name="description" content="jQuery Gradientify plugin provices CSS gradient transitions.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="main.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://raw.githubusercontent.com/codefog/jquery-gradientify/master/jquery.gradientify.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>jQuery Gradientify</h1>
+            <p>A jQuery plugin that provides CSS gradient transitions.</p>
+            <p><a href="https://github.com/codefog/jquery-gradientify" title="Read more on GitHub">Read more on GitHub</a></p>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                $("body").gradientify({
+                    gradients: [
+                        { start: [49,76,172], stop: [242,159,191] },
+                        { start: [255,103,69], stop: [240,154,241] },
+                        { start: [33,229,241], stop: [235,236,117] }
+                    ]
+                });
+            });
+        </script>
+    </body>
+</html>
