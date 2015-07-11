@@ -33,6 +33,12 @@ a {
 }
 
 #wrapper {
-    padding-top: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -130px;
+    margin-left: -300px;
+    height: 260px;
+    width: 600px;
     text-align: center;
 }
